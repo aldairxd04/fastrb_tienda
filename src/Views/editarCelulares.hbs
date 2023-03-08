@@ -1,0 +1,37 @@
+<form action="/update/{{celulares._id}}" method="POST">
+  <div>
+    <label for="clave">Ingrese la clave:</label>
+    <input
+      type="text"
+      name="clave"
+      id="clave"
+      placeholder="Ejem: NiDKJSSF56545"
+    />
+  </div>
+  <div>
+    <label for="marca">Ingrese la marca:</label>
+    <input type="text" name="marca" id="marca" placeholder="Ejem: sasdd" />
+  </div>
+  <div>
+    <label for="precio">Ingrese la precio:</label>
+    <input type="number" name="precio" id="precio" placeholder="Ejem: 55" />
+  </div>
+  <div>
+    <label for="fechaLanzamiento">Introduce la fecha de lanzamiento:</label>
+    <input type="date" name="fechaLanzamiento" id="fechaLanzamiento" />
+  </div>
+  <div>
+    <label for="RAM">Ingrese la RAM:</label>
+    <input type="number" name="RAM" id="RAM" placeholder="Ejem: 55" />
+  </div>
+  <div>
+    <label for="almacenamiento">Ingrese el almacenamiento:</label>
+    <input type="number" name="almacenamiento" id="almacenamiento" placeholder="Ejem: 55" />
+  </div>
+  <div>
+    <label for="cantCamaras">Ingrese el cantidad de Camaras:</label>
+    <input type="number" name="cantCamaras" id="cantCamaras" placeholder="Ejem: 55" />
+  </div>
+
+  <button>Agregar</button>
+</form>
